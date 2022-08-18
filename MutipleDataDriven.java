@@ -15,7 +15,7 @@ public class MutipleDataDriven {
 	  @Given("^I am on the demo site login \"([^\"]*)\"$")
 	  public void i_am_on_the_demo_site_login(String arg1) throws Throwable {
 	   // Write code here that turns the phrase above into concrete actions
-	   System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver3.exe");
+	   System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
 	   driver = new ChromeDriver();
 	   driver.manage().window().maximize();
 	   driver.get(arg1);
