@@ -12,7 +12,7 @@ public class MultiSteps {
     @Given("^user is on Google home page \"([^\"]*)\"$")
     public void user_is_on_Google_home_page(String arg1) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Documents\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(arg1);
         System.out.println(arg1 + "\t is the site");
