@@ -15,7 +15,7 @@ public class LoginWithAssertions {
 	ChromeDriver driver;
 	@Given("^I am on the demo website \"([^\"]*)\"$")
 	public void i_am_on_the_demo_website(String arg1) throws Throwable {
-	System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver3.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get(arg1);
