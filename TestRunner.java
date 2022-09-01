@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 				features=".//Features/loginexamp.feature",
 				glue="stepDefinitions",
 				dryRun=false,
-				monochrome=true,
-				plugin= {"pretty","html:target"}
+				monochrome=true
+				
 			)
 public class TestRunner {
 
